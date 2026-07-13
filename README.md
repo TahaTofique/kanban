@@ -1,73 +1,42 @@
-# TaskFlow Kanban - Simple HTML/JS Version
+# TaskFlow Kanban Pro
 
-A fully functional Kanban board in a **single HTML file** — no build tools, no npm, no dependencies to install. Just open the file in a browser or upload to GitHub Pages.
+A stunning, tech-forward Kanban board built entirely in **one HTML file** — no build tools, no dependencies to install, just open and go.
+
+## Design Highlights
+
+- **Dark-first aesthetic** with animated gradient mesh background
+- **Glassmorphism cards** with backdrop blur and subtle borders
+- **Floating particles** on the welcome screen
+- **Gradient text** and glowing buttons
+- **Animated progress ring** for completion stats
+- **Smooth micro-interactions** on every element
+- **Color-coded priority badges** with neon borders
+- **Card glow effects** on hover
 
 ## Features
 
-- Drag & Drop between columns (native HTML5 API)
-- Create, edit, delete tasks with modals
-- Priority levels (Low, Medium, High) with color badges
-- Categories (Design, Development, Testing, etc.)
-- Color labels for visual organization
-- Due dates with overdue detection
-- Search, filter by priority/category/status
-- Sort by date, priority, or creation date
-- Statistics dashboard (5 animated cards)
+- Drag & Drop between columns (native HTML5)
+- Create, edit, delete tasks with beautiful modals
+- Priority levels: Low, Medium, High
+- 9 categories + dynamic creation
+- 8 color labels for visual organization
+- Smart due dates with overdue detection
+- Real-time search & multi-filter
+- Sort by date, priority, or creation
+- Statistics dashboard with SVG progress ring
 - Dark/Light mode toggle
-- Data persistence via LocalStorage
-- Export/Import JSON
+- LocalStorage persistence
+- JSON import/export
 - Toast notifications
-- Fully responsive (mobile, tablet, desktop)
-- Glassmorphism UI design
+- Fully responsive
 
-## How to Use
+## Deploy to GitHub Pages
 
-### Option 1: Open Locally
-Simply double-click `index.html` — it works right away.
+1. Create a new repo on GitHub
+2. Upload `index.html`
+3. Settings → Pages → Deploy from branch → main → /(root)
+4. Live at `https://YOURNAME.github.io/REPO/`
 
-### Option 2: GitHub Pages (Free Hosting)
+## Zero Setup
 
-1. Create a new repository on GitHub
-2. Upload `index.html` to the repository
-3. Go to **Settings → Pages**
-4. Set **Source** to **Deploy from a branch**
-5. Select **main** branch and **/(root)** folder
-6. Click **Save**
-7. Your site will be live at `https://YOUR_USERNAME.github.io/REPO_NAME/`
-
-### Option 3: Netlify / Vercel (Drag & Drop)
-1. Go to [netlify.com](https://netlify.com) or [vercel.com](https://vercel.com)
-2. Drag and drop the `index.html` file
-3. Your site is live instantly
-
-## File Structure
-
-```
-taskflow-kanban-simple/
-└── index.html    (everything in one file!)
-```
-
-That's it. No `node_modules`, no build step, no bundler.
-
-## External Resources Used (CDN)
-
-- **Tailwind CSS** (via CDN) — styling
-- **Font Awesome** — icons
-- **Google Fonts (Inter)** — typography
-
-All loaded automatically when you open the file.
-
-## Data Storage
-
-All tasks are saved to your browser's **LocalStorage**, so they persist between sessions. You can also export your data as JSON and import it later.
-
-## Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## License
-
-MIT — free to use, modify, and distribute.
+Just double-click `index.html` — it works instantly. All resources load from CDN.
